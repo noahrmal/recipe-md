@@ -1,0 +1,47 @@
+---
+layout: default
+print_stylesheet: true
+---
+<article class="recipe">
+	<h1>
+		<a href="{{page.url}}">{{ page.title }}</a>
+	</h1>
+	<div class="image">
+		<img src="{{site.baseurl}}/images/{{page.image}}" alt="{{ page.title }}">
+	</div>
+	{% if page.imagecredit %}
+        <a href="{{ page.imagecredit }}" id="image-credits">
+          <svg width="14" height="14" data-icon="camera" viewBox="0 0 32 32" style="fill:currentcolor"><title>Image Credit</title><path d="M0 6 L8 6 L10 2 L22 2 L24 6 L32 6 L32 28 L0 28 z M9 17 A7 7 0 0 0 23 17 A7 7 0 0 0 9 17"></path></svg>
+        </a>
+    {% endif %}
+
+	<div class="recipe-body">
+		{{ content }}
+	</div>
+
+	<ul id="recipe" class="recipe-overview">
+		{% if page.recipe.servings %}<li title="Servings"><img src="{{site.baseurl}}/assets/icons/quantity.svg"><span>{{ page.recipe.servings }}</span></li>{% endif %}
+		{% if page.recipe.prep %}<li title="Prep Time"><img src="{{site.baseurl}}/assets/icons/time.svg"><span>{{ page.recipe.prep }}</span></li>{% endif %}
+		{% if page.recipe.cook %}<li title="Cook Time"><img src="{{site.baseurl}}/assets/icons/cooks.svg"><span>{{ page.recipe.cook }}</span></li>{% endif %}
+	</ul>
+
+	<div class="recipe-contents">
+		<div class="ingredients">
+			<h2>{{ site.translation[site.language].ingredients }}</h2>
+			<ul>
+				{% for ingredient in page.ingredients %}
+				<li>{{ ingredient | markdownify | remove: '<p>' | remove: '</p>'}}</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="directions">
+			<h2>{{ site.translation[site.language].directions }}</h2>
+			<ol>
+				{% for direction in page.directions %}
+				<li>{{ direction | markdownify | remove: '<p>' | remove: '</p>'}}</li>
+				{% endfor %}
+			</ol>
+		</div>
+	</div>
+</article>

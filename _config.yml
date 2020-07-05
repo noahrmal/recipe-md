@@ -1,0 +1,21 @@
+title: Recipes
+baseurl: ""
+language: "en"
+
+permalink: pretty
+
+collections:
+  recipes:
+    output: true
+
+exclude:
+  - README.md
+  - LICENCE
+
+translation:
+  en:
+    ingredients: "Ingredients"
+    directions: "Directions"
+  de:
+    ingredients: "Zutaten"
+    directions: "Zubereitung"

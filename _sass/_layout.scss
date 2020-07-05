@@ -1,0 +1,13 @@
+.container {
+	margin: 0 auto;
+	@media #{$large-break-point} {
+		display: flex;
+	}
+	padding: 30px;
+}
+
+.content {
+	@media #{$large-break-point} {
+		flex: 1;
+	}
+}

@@ -1,0 +1,12 @@
+---
+title: Recipes
+layout: default
+---
+
+<div class="recipes-collection">
+	{% for recipe in site.recipes %}
+	<div class="recipe" style="background-image:url({{site.baseurl}}/images/{{recipe.image}});">
+		<a href="{{ recipe.url | prepend: site.baseurl }}"><span>{{ recipe.title }}</span></a>
+	</div>
+	{% endfor %}
+</div>
