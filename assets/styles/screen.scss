@@ -1,5 +1,7 @@
 ---
 ---
+$primary-color: {{ site.primary-color }}; 
+
 @import "_variables";
 @import "_elements";
 @import "_layout";

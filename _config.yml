@@ -1,6 +1,7 @@
-title: Recipes
+title: recipes-md
 baseurl: ""
 language: "en"
+primary-color: "#3f51b5"
 
 permalink: pretty
 
