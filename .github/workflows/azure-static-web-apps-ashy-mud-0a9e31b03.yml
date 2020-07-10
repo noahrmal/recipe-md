@@ -25,6 +25,11 @@ jobs:
         run: gem install jekyll bundler
       - name: Jekyll build
         run: jekyll build
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - run: npm install workbox-cli --global
+      - run: workbox generateSW workbox-config.js
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v0.0.1-preview

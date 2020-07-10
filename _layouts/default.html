@@ -23,4 +23,13 @@
 			<section class="content">{{ content }}</section>
 		</div>
 	</body>
+
+<script>
+	// register service worker if available on navigator interface and only in production scenario
+	if ('serviceWorker' in navigator && location.hostname !== "localhost" && location.hostname !== "127.0.0.1") {
+	  window.addEventListener('load', () => {
+		navigator.serviceWorker.register('/sw.js');
+	  });
+	}
+</script>
 </html>
