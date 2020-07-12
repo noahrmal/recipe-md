@@ -24,7 +24,7 @@ jobs:
       - name: Jekyll install
         run: gem install jekyll bundler
       - name: Jekyll build
-        run: jekyll build
+        run: JEKYLL_ENV=production jekyll build
       - uses: actions/setup-node@v1
         with:
           node-version: '12'

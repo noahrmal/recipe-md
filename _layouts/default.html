@@ -1,4 +1,7 @@
-<!DOCTYPE html><html lang="{{ site.language }}"><head>
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+
+<head>
 	<meta charset="utf-8">
 	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -6,7 +9,7 @@
 	<link rel="stylesheet" media="screen" href="{{ site.baseurl }}/assets/styles/screen.css">
 	<link rel="stylesheet" media="print" href="{{ site.baseurl }}/assets/styles/print.css">
 	<link rel="manifest" href="/manifest.webmanifest">
-	<meta name="theme-color" content="{{ site.primary-color }}"/>
+	<meta name="theme-color" content="{{ site.primary-color }}" />
 	<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/icons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/icons/favicon-16x16.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-icon-180.png">
@@ -14,22 +17,26 @@
 	<link rel="apple-touch-icon" sizes="152x152" href="../assets/icons/apple-icon-152.png">
 	<link rel="apple-touch-icon" sizes="120x120" href="../assets/icons/apple-icon-120.png">
 
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="apple-mobile-web-app-title" content="{{ site.title }}">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 </head>
-	<body>	
-		<div class="container">
-			<section class="content">{{ content }}</section>
-		</div>
-	</body>
 
+<body>
+	<div class="container">
+		<section class="content">{{ content }}</section>
+	</div>
+</body>
+
+{% if jekyll.environment == "production" %}
 <script>
 	// register service worker if available on navigator interface and only in production scenario
-	if ('serviceWorker' in navigator && location.hostname !== "localhost" && location.hostname !== "127.0.0.1") {
-	  window.addEventListener('load', () => {
-		navigator.serviceWorker.register('/sw.js');
-	  });
+	if ('serviceWorker' in navigator) {
+		window.addEventListener('load', () => {
+			navigator.serviceWorker.register('/sw.js');
+		});
 	}
 </script>
+{% endif %}
+
 </html>
