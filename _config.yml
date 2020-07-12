@@ -11,7 +11,10 @@ collections:
 
 exclude:
   - README.md
-  - LICENCE
+  - LICENSE
+  - workbox-config.js
+  - assets/icons/maskabe-logo.png
+  - assets/icons/md-icon-round-local-dining.svg
 
 translation:
   en:
