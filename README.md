@@ -25,8 +25,6 @@ Clone or download this repo. Navigate to the folder in terminal (or iTerm, etc),
 
 With default settings, you should be able to view the site locally at `http://127.0.0.1:4000/`
 
-I highly recommend to use a linux based system because 
-
 
 # Writing a Recipe
 
