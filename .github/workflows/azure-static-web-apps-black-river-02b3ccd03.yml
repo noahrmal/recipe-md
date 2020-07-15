@@ -18,6 +18,18 @@ jobs:
       - uses: actions/checkout@v2
         with:
           submodules: true
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+      - name: Jekyll install
+        run: gem install jekyll bundler
+      - name: Jekyll build
+        run: JEKYLL_ENV=production jekyll build
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - run: npm install workbox-cli --global
+      - run: workbox generateSW workbox-config.js
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v0.0.1-preview
