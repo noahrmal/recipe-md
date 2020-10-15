@@ -15,8 +15,9 @@ ingredients:
 - Zitronensaft
 
 directions:
-- Zwiebeln in Würfel schneiden, die Knoblauchzehe pressen und in eine großen Pfanne in Öl dünsten
-- den Lachs mit Zitronensaft betreufeln und gut Salzen und Pfeffern
+- die Zwiebel in Würfel schneiden und die Knoblauchzehe pressen
+- Zwiebel und Knoblauch in einer großen Pfanne in dem Öl dünsten
+- den Lachs mit Zitronensaft beträufeln und gut Salzen und Pfeffern
 - den Lachs in die Pfanne geben und mit anbraten
 - Wasser zum Kochen bringen und die Nudeln kochen
 - 5 Minuten vor Ende der Kochzeit der Nudeln die Brokkoli-Röschen mit in den Topf geben
