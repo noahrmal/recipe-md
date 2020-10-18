@@ -5,7 +5,7 @@ title:  "One-Pot Cheesburger Pasta"
 image: one-pot-cheesburger-pasta.jpg
 
 ingredients:
-- 250 g gehacktes oder "Next Level Hack"
+- 250 g Hackfleisch (Rind) oder "Next Level Hack"
 - 2 Zwiebeln
 - 1 Knoblauchzehe
 - 500 g passierte Tomaten
