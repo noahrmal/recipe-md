@@ -1,8 +1,8 @@
 ---
 
 layout: recipe
-title:  "One-Pot Cheesburger Pasta"
-image: one-pot-cheesburger-pasta.jpg
+title:  "One-Pot Cheeseburger Pasta"
+image: one-pot-cheeseburger-pasta.jpg
 
 ingredients:
 - 250 g Hackfleisch (Rind) oder "Next Level Hack"
@@ -22,10 +22,11 @@ ingredients:
 - Jalapeños
 
 directions:
-- eine Zwiebel und den Knocblauch würfeln
+- eine Zwiebel und den Knoblauch würfeln
 - zusammen mit etwas Öl glasig dünsten
 - 2 EL Tomatenmark dazu geben und zusammen mit dem Gehacktem anbraten
 - Passierte Tomaten, stückige Tomaten, Wasser und Nudeln dazu geben und köcheln lassen
+- am Ende der Kochzeit der Nudeln den Blattspinat hinzugeben
 - in der Zwischenzeit Gewürzgurken in Scheiben schneiden, Tomaten vierteln und die zweite Zwiebel würfeln
 - einen Teil der Gewürzgurken, Tomaten und den Senf hinzugeben
 - mit Salz und Pfeffer abschmecken
@@ -33,4 +34,4 @@ directions:
   
 ---
 
-Ein einfaches Gerricht, dass geschmacklich sehr nahe an einen Cheesburger herankommt. Auch eine vegetarische oder sogar vegane Variante mit Hack-Alternativen ist super lecker.
+Ein einfaches Gerricht, dass geschmacklich sehr nahe an einen Cheeseburger herankommt. Auch eine vegetarische oder sogar vegane Variante mit Hack-Alternativen ist super lecker.
