@@ -1,6 +1,6 @@
-title: recipes-md
+title: Rezepte
 baseurl: ""
-language: "en"
+language: "de"
 primary-color: "#3f51b5"
 
 permalink: pretty
