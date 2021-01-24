@@ -4,8 +4,6 @@ A simple, plaintext recipe database. I was looking for a simple way to digitize 
 
 ![Azure Static Web Apps CI/CD](https://github.com/noahrmal/recipe-md/workflows/Azure%20Static%20Web%20Apps%20CI/CD/badge.svg)
 
-**Demo with recipes from [clarklab](https://github.com/clarklab/chowdown)**: https://recipe-md.faltis.me/
-
 **Demo with my recipes (german):** https://rezepte.faltis.me  
 
 In my research I came across the project [chowdown](https://github.com/clarklab/chowdown) by [clarklab](https://github.com/clarklab). For my purpose I lacked an optimized printing view because I prefer to use printed recipes in a uniform appearance while cooking. My knowledge regarding jekyll was rather limited and the project structure of chowdown was complex so I decided to rewrite it from scratch in a simpler way aligned with my inidividual requirements. 
