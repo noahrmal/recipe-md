@@ -2,7 +2,7 @@
 
 layout: recipe
 title:  "Lasagne"
-image: no-image.jpg
+image: lasagne.jpg
 imagecredit: "https://flic.kr/p/9AAfqo"
 
 ingredients:
