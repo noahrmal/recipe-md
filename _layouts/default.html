@@ -31,12 +31,18 @@
 {% if jekyll.environment == "production" %}
 <script>
 	// register service worker if available on navigator interface and only in production scenario
-	if ('serviceWorker' in navigator) {
-		window.addEventListener('load', () => {
-			navigator.serviceWorker.register('/sw.js');
+	if ("serviceWorker" in navigator) {
+		window.addEventListener("load", () => {
+			navigator.serviceWorker.register("/sw.js");
 		});
 	}
+	
 </script>
 {% endif %}
+<script>
+	if ("wakeLock" in navigator) {
+		navigator.wakeLock.request("screen");
+	}
+</script>
 
 </html>
