@@ -2,7 +2,7 @@
 
 layout: recipe
 title:  "Nudelsalat mit Tomaten und Rucola"
-image: no-image.jpg
+image: noodle-arugula-salad.jpg
 
 ingredients:
 - 500 g Nudeln (Sorte Trulli)
