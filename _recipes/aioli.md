@@ -3,8 +3,6 @@
 layout: recipe
 title:  "Aioli"
 image: aioli.jpg
-imagecredit: https://flic.kr/p/5H8H4v
-
 
 ingredients:
 - 2 Knoblauchzehen
