@@ -18,7 +18,8 @@ directions:
 - nach Ablauf der Kochzeit die Nudeln in die Schüssel geben und verrühren
 - Oliven abtropfen, dazugeben und untermischen
 - optional die Schüssel über Nacht in den Kühlschrank stellen
-- kurz vor dem Verzehr die Tomaten halbieren und den Rucola in der Schüssel untermischen
+- kurz vor dem Verzehr die Tomaten halbieren und den Rucola kleinschneiden
+- beides nun in die Schüssel geben und untermischen
 - ggf. mit Salz und Pfeffer abschmecken
 
 ---
