@@ -7,14 +7,14 @@ image: aioli.jpg
 ingredients:
 - 2 Knoblauchzehen
 - 1 Ei
-- 25 g Senf (mittelscharf)
 - 1/2 TL Salz
+- 25 g Senf (mittelscharf)
 - 1 Prise Pfeffer
 - 250 ML Öl
 
 directions:
 - die Knoblauchzehen pressen und in eine Schüssel geben
-- Ei, Senf, Salz und Pfeffer dazugeben
+- Ei, Salz, Senf und Pfeffer dazugeben
 - die Zutaten mit einem Mixer verrühren 
 - das Öl unter ständigem rühren nach und nach hinzugeben, bis eine cremige Masse entsteht
 - 1-2 Stunden in den Kühlschrank stellen
